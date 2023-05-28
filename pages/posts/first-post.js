@@ -5,7 +5,8 @@ import Head from 'next/head';
 import Layout from '../../components/Layout';
 import Todo from '../../components/Todo';
 
-const YourComponent = () => (
+
+const Avatar = () => (
   <Image
     src="/images/profile.png" // Route of the image file
     height={144} // Desired size with correct aspect ratio
@@ -18,9 +19,9 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>MoonBow❤️ </title>
+        <title>MoonBow ❤️ </title>
       </Head>
-      <h1>First Post 🏠</h1>
+      <h1>First Post </h1>
       <button className='button'>    
         <Link href="/">←home </Link>  
       </button>
