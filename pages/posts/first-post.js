@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import Head from 'next/head';
 import Layout from '../../components/Layout';
+import Todo from '../../components/Todo';
 
 const YourComponent = () => (
   <Image
@@ -17,12 +18,18 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>First Post</title>
+        <title>MoonBow❤️ </title>
       </Head>
-      <h1>First Post</h1>
-      <h2>
-        <Link href="/">← Back to home</Link>
-      </h2>
+      <h1>First Post 🏠</h1>
+      <button className='button'>    
+        <Link href="/">←home </Link>  
+      </button>
+      <h1>Todo ✅</h1>
+      <Todo text="Comments Here" /> 
+      <Todo text="Learn Next.js" />
     </Layout>
+    
+      
+  
   );
 }
