@@ -12,11 +12,11 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Read <Link href='/posts/first-post'>this page!</Link>
+          Lees <Link href='/posts/first-post'>Deze pagina!</Link>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Hier word gewerkt <code>QCS Service</code>
         </p>
       </main>  
     </div>
